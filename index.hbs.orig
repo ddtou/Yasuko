@@ -1,0 +1,54 @@
+{{!< default}}
+
+    <header id="header" data-url="https://luoleiorg.b0.upaiyun.com/tmp/yasuko/yasuko.jpg" class="home-header blog-background banner-mask lazy {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
+        <div class="nav-header-container">
+<<<<<<< HEAD
+             <a href="{{@blog.url}}" class="svg-logo">
+<span class="svg-logo" >
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="3.4rem" height="3.4rem" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+<!-- Generator: Sketch 3.3.2 (12043) - http://www.bohemiancoding.com/sketch -->
+    <title>logos</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path id="path-1" d="M128,256 C198.692448,256 256,198.692448 256,128 C256,57.307552 198.692448,0 128,0 C57.307552,0 0,57.307552 0,128 C0,198.692448 57.307552,256 128,256 Z"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Oval-1">
+            <use fill="#8B572A" fill-rule="evenodd" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            <use fill="none" xlink:href="#path-1"></use>
+            <use fill="none" xlink:href="#path-1"></use>
+        </g>
+        <text id="琢" sketch:type="MSTextLayer" font-family="汉真广标" font-size="190" font-weight="normal" sketch:alignment="middle" fill="#FFFFFF">
+            <tspan x="33" y="185">琢</tspan>
+        </text>
+    </g>
+</svg>
+</span>
+</a>
+=======
+             <a href="{{@blog.url}}" class="svg-logo" style="width: 3.4rem">
+             <img width="100%" height="100%" src="http://7xn0l0.com1.z0.glb.clouddn.com/2016%2F05%2Fwxsharelogo-1464180951231.png" alt="{{@blog.title}}" /></a>
+
+
+>>>>>>> 8d2b52b2d9615984486f9b4f696deda5644c2ce4
+        </div>
+        <div class="header-wrap">
+        <div class="home-info-container">
+            <a href="{{@blog.url}}"><h2>Stay before every beautiful thoughts</h2></a>
+            <h4>在每一个美好的思想前停留</h4>
+        </div>
+        <div class="arrow_down" data-offset="-45">
+               <a href="javascript:;"></a>
+        </div>
+    </header>
+{{! The main content area on the homepage }}
+<main id="main" class="content homepage" role="main">
+{{! Each post will be output using this markup }}
+{{> "loop"}}
+{{!! After all the posts, we have the previous/next pagination links }}
+
+{{!-- {{pagination}} --}}
+</main>
+
+
